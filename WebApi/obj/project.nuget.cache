@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DIUEZNPbE9o=",
+  "dgSpecHash": "pktyw9eGHZo=",
   "success": true,
   "projectFilePath": "C:\\Users\\PRIME TECHNOLOGY\\Desktop\\.net\\lessons\\lesson 03-04-2025\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
@@ -35,6 +35,7 @@
     "C:\\Users\\PRIME TECHNOLOGY\\.nuget\\packages\\npgsql\\9.0.3\\npgsql.9.0.3.nupkg.sha512",
     "C:\\Users\\PRIME TECHNOLOGY\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\9.0.4\\npgsql.entityframeworkcore.postgresql.9.0.4.nupkg.sha512",
     "C:\\Users\\PRIME TECHNOLOGY\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\8.1.0\\swashbuckle.aspnetcore.swagger.8.1.0.nupkg.sha512",
+    "C:\\Users\\PRIME TECHNOLOGY\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\8.1.0\\swashbuckle.aspnetcore.swaggergen.8.1.0.nupkg.sha512",
     "C:\\Users\\PRIME TECHNOLOGY\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\8.1.0\\swashbuckle.aspnetcore.swaggerui.8.1.0.nupkg.sha512",
     "C:\\Users\\PRIME TECHNOLOGY\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\PRIME TECHNOLOGY\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",

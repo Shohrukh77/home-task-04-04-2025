@@ -1,4 +1,6 @@
 using Infastructure.Data;
+using Infastructure.Interfaces;
+using Infastructure.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,7 +11,10 @@ builder.Services.AddOpenApi();
 builder.Services.AddControllers();
 
 builder.Services.AddScoped<DataContext>();
-// builder.Services.AddScoped<IProductService,ProductService>();
+builder.Services.AddScoped<IStudentGroupService, StudentGroupService>();
+builder.Services.AddScoped<IStudentGroupService, StudentGroupService>();
+builder.Services.AddScoped<ICourseService, CourseService>();
+builder.Services.AddScoped<IAddressService, AddressService>();
 
 builder.Services.AddDbContext<DataContext>(t =>
     t.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
